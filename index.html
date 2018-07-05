@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Experiment Design Beste kleding site voor u. Koop snel en eenvoudig onze kleding vanaf deze site." />
+    <meta name="keywords" content="Experiment Design, Kleding, truien, sweaters, Hoodies, Pants, Caps, Beste, Design, Experiment, Kopen, site " />
+    <meta name="page-topic" content="Experiment Design Beste voor u!" />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=2.5,'/>
+
+    <title>Experiment Design | clothes | shirts | Sweaters | Hoodies</title>
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <script src="semantic/dist/semantic.min.js"></script>
+  </head>
+  <body>
+  <header>
+      <div class="ui top fixed small menu navbar" style="box-shadow: none;">
+          <div class="container item logo">
+            <a href="index.html" style="height: 45px">
+              <img src="images/experiment.png" style="height: 90px !important; width: auto; margin-top: -10px !important;" alt="TRUI"/>
+            </a>
+          </div>
+          <div id="navbar" class="ui secondary pointing menu navbar">
+            <a class="item nav-items active" href="index.html">
+              Home
+            </a>
+            <a class="item nav-items" href="producten.html">
+              Producten
+            </a>
+            <a class="item nav-items" href="contact.html">
+              Contact
+            </a>
+          </div>
+            <div class="item inloggen-buttons">
+              <div class="ui buttons">
+                <button onclick="window.location.href='login.html'" class="ui button login-button">Inloggen</button>
+                <div class="or" data-text="of"></div>
+                <button onclick="window.location.href='registreren.html'" class="ui positive button signup-button">Registreren</button>
+              </div>
+            </div>
+        </div>
+
+    <div class="ui top fixed massive mobile logo menu">
+      <a class="item open-menu"><i class="icon bars"></i></a>
+    </div>
+    <div class="wd mobile sidebar">
+      <div class="ui vertical secondary fluid menu">
+        <a href="index.html" class="item">Home</a>
+
+        <a href="producten.html" class=" item">Producten</a>
+        <a href="contact.html" class=" item">Contact</a>
+      </div>
+      <div class="ui divider"></div>
+      <div class="ui vertical secondary fluid menu">
+        <a href="login.html" class="text item">Inloggen</a>
+        <a href="registreren.html" class="text item">Registreren</a>
+      </div>
+    </div>
+    <div class="overlay"></div>
+
+  </header>
+
+
+  <div class="ui container">
+    <br><br><br><br>
+
+    <div class="ui segment medium center aligned stackable images">
+    <h1>Hoodies</h1>
+    <div class="ui divider"></div>
+      <a href="producten.html">
+    <img src="images/trui(1).png" alt="TRUI">
+    <img src="images/trui(1).png" alt="TRUI">
+    <img src="images/trui(1).png" alt="TRUI"></a>
+  </div>
+
+    <div class="ui segment medium center aligned images">
+      <h1>Sweaters</h1>
+      <div class="ui divider"></div>
+      <span class="ui header">NOG NIET TE KOOP....</span>
+    </div>
+
+    <div class="ui segment medium center aligned images">
+      <h1>Pants</h1>
+      <div class="ui divider"></div>
+      <span class="ui header">NOG NIET TE KOOP....</span>
+    </div>
+
+    <div class="ui segment medium center aligned images">
+      <h1>Caps</h1>
+      <div class="ui divider"></div>
+      <span class="ui header">NOG NIET TE KOOP....</span>
+    </div>
+  </div>
+
+  <div class="ui divider"></div>
+  <div class="ui center aligned footer-block">
+    <div class="ui container center aligned stackable grid">
+      <div class="three wide column">
+        <h4 class="ui inverted header footer-header">Community</h4>
+        <div class="ui inverted link list ">
+          <a class="item footer-items">Contact</a>
+
+          <a class="item footer-items">Bel naar: 0626052122</a>
+          <a class="item footer-items">streek_danny10@hotmail.com</a>
+        </div>
+      </div>
+      <div class="three wide column">
+        <h4 class="ui inverted header footer-header">Producten</h4>
+        <div class="ui inverted link list">
+          <a href="#" class="item footer-items">Tops</a>
+          <a href="#" class="item footer-items">Broeken & Jeans</a>
+          <a href="#" class="item footer-items">Jassen</a>
+          <a href="#" class="item footer-items">Accessoires</a>
+        </div>
+      </div>
+      <div class="three wide column">
+        <h4 class="ui inverted header footer-header">Volg ons!</h4>
+        <div class="ui inverted link list icons">
+          <i class="facebook icon icons"> <a class="item footer-items"></a></i>
+          <i class="instagram icon icons"><a class="item footer-items"></a></i>
+
+        </div>
+      </div>
+      <div class="seven wide column footer-block">
+        <h4 class="ui inverted header footer-p">Experiment Design</h4>
+        <p class="footer-p">look what is best for you!</p>
+      </div>
+    </div>
+  </div>
+  <div class="ui divider"></div>
+  <div class="ui horizontal inverted small divided copyright">
+    Copyright &copy; 2018 Experimentdesign.nl B.V. Alle rechten voorbehouden.
+  </div>
+
+  <script>
+      // Add active class to the current button (highlight it)
+      var header = document.getElementById("navbar");
+      var btns = header.getElementsByClassName("nav-items");
+      for (var i = 0; i < btns.length; i++) {
+          btns[i].addEventListener("click", function() {
+              var current = document.getElementsByClassName("active");
+              current[0].className = current[0].className.replace(" active", "");
+              this.className += " active";
+          });
+      }
+  </script>
+
+  <script src="js/index.js"></script>
+  </body>
+</html>

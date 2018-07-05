@@ -1,0 +1,354 @@
+.item:before{
+    all:unset !important;
+}
+
+html, body{
+    background-color: whitesmoke !important;
+    font-size: 16px !important;
+}
+
+#content {
+    min-height: 100px;
+}
+.ui.grid{
+    padding: 0 !important;
+}
+.pushable.segment{
+    margin: 0 !important;
+}
+
+.login-button{
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid black !important;
+    transition: background-color .3s ease-in-out !important;
+}
+
+.login-button:hover{
+    background-color: black !important;
+    color: white !important;
+}
+
+.signup-button{
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid black !important;
+    transition: background-color .3s ease-in-out !important;
+}
+
+.signup-button:hover{
+    background-color: black !important;
+    color: white !important;
+}
+
+.or:before{
+    color: black !important;
+}
+
+.navbar{
+    margin: 0 auto !important;
+    border: none !important;
+}
+
+.inloggen-buttons{
+    float: right !important;
+}
+
+.nav-items {
+    font-size: 18px !important;
+}
+
+.active, .nav-items{
+    text-decoration: underline;
+}
+/*login pagina*/
+
+.login-screen{
+    height: 700px !important;
+}
+
+.login-header{
+    color: black !important;
+}
+
+.submit-button{
+    background: black !important;
+}
+
+.registreren-button, .register-a{
+    color: black !important;
+}
+
+.register-a{
+    text-decoration: underline;
+}
+
+.adres-fieldset, .contact-fieldset{
+  min-width: 270px !important;
+}
+
+/*Contact pagina*/
+
+.contact-form {
+    margin: 150px 0 0 300px !important;
+}
+
+
+/*dashboard pagina*/
+.dashboard-account-info{
+  margin: 25px 0 0 300px !important;
+}
+
+.dashboard{
+    margin: 40px 0 0 23% !important;
+}
+
+.sidebar-menu{
+    margin-top: 3% !important;
+    width: 80% !important;
+}
+
+.sidebar-items{
+    border-bottom: 1px solid black !important;
+    transition: background-color .2s ease-in-out;
+}
+
+.sidebar-items:hover{
+    background-color: black !important;
+    color: white !important;
+}
+
+.contact-link{
+    transition: text-decoration .2s ease-in-out !important;
+}
+
+.contact-link:hover{
+    color: black !important;
+    text-decoration: underline;
+}
+
+/*Accountinformatie*/
+body > .container{
+    min-height: 100% !important;
+}
+
+.accountinformatie{
+    height: 700px !important;
+    min-width: 300px !important;
+    width: 40% !important;
+    margin: -300px 0 0 350px !important;
+}
+
+.accountinformatie-header{
+    color: black !important;
+}
+
+.header{
+      margin: 80px 0 0 0 !important;
+}
+
+.submit-button{
+    background: black !important;
+}
+
+.datum-icon{
+    margin-top: 9px !important;
+}
+
+.datum{
+    margin-top: 15px !important;
+}
+
+/*producten pagina*/
+.producten{
+    margin: 60px 0 0 0 !important;
+}
+
+.truien{
+   margin: 0 auto !important;
+}
+
+.truien-h1{
+  margin: 90px 0 20px 0 !important;
+  text-align: left !important;
+  font-size: 50px !important;
+}
+
+.header{
+    color: black !important;
+}
+
+.info{
+    margin: -60px 0 0 0 !important;
+}
+
+/*Buy pagina*/
+.checkout-button{
+    background-color: red !important;
+}
+
+/*footer*/
+
+.footer-block{
+   background-color: white !important;
+}
+
+.footer-items{
+    color: black !important;
+}
+
+.footer-header{
+    color: black !important;
+}
+
+.footer-p{
+    color: black !important;
+    font-size: 20px !important;
+}
+
+.icons{
+    text-align: center !important;
+    padding: 0 20px 0 0!important;
+    margin: 0 0 0 10px !important;
+    transition: transform .2s ease-in-out !important;
+}
+
+.icons:hover{
+    transform: scale(1.2) !important;
+}
+
+.icons:before{
+    font-size: 24px !important;
+}
+
+.copyright{
+    margin: 0 auto !important;
+    text-align: center !important;
+
+}
+
+@media only screen and (max-width: 733px) {
+    .navbar-test{
+        display: none !important;
+    }
+
+    .mobile-test{
+        display: block !important;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+  .sidebar-menu{
+    max-width: 186px !important;
+    display: inline-block !important;
+  }
+  .sidebar-items{
+      border-bottom: 1px solid black !important;
+      transition: background-color .2s ease-in-out;
+      min-width: 186px !important;
+  }
+
+  .line{
+    min-width: 214px !important;
+  }
+
+  .sidebar-items:hover{
+      background-color: black !important;
+      color: white !important;
+  }
+}
+
+@media only screen and (max-width: 765px) {
+    .contact-fieldset, .adres-fieldset{
+        margin: 0 auto !important;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .truien-col{
+        margin: 0 auto !important;
+        text-align: center !important;
+    }
+}
+
+
+@media only screen and (max-width: 1270px) {
+    .register-form{
+        max-width: 445px !important;
+        min-width: 250px !important;
+        height: auto !important;
+    }
+}
+
+/*mobile navbar*/
+
+.mobile {
+    display: none !important;
+    background: #fff;
+    z-index: 999 !important; }
+.mobile.logo {
+    background-image: url("../images/experiment.png") !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: 150px auto !important;
+    padding: 0 !important; }
+.mobile > .menu {
+    margin: 0 !important; }
+
+.open-menu {
+    background-color: white !important;
+    width: 40px; }
+
+.mobile-search {
+    display: none;
+    margin: 2rem 0 !important; }
+.mobile-search:first-child {
+    margin-top: 0 !important; }
+
+.tablet-search {
+    display: none; }
+
+.wd.mobile.sidebar {
+    position: fixed;
+    width: 0;
+    height: calc(100% - 51px);
+    bottom: 0;
+    box-shadow: 0 1px 2px 0 rgba(34, 36, 38, 0.15);
+    overflow: hidden;
+    transition: width .3s ease-in-out;
+    z-index: 999; }
+.wd.mobile.sidebar .menu .item {
+    min-width: 200px; }
+.wd.mobile.sidebar .menu .item.text {
+    color: gray !important; }
+.wd.mobile.sidebar.open {
+    width: 200px; }
+
+.overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 998; }
+.overlay.on {
+    display: block; }
+
+@media screen and (max-width: 992px) {
+    .navbar {
+        display: none !important; }
+
+    .mobile {
+        display: block !important; }
+
+    .tablet-search {
+        display: block; }
+
+    body > .container {
+        padding: 65px 0 0; } }
